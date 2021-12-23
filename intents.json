@@ -1,0 +1,246 @@
+{
+        "intents": [
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi there",
+                                "How are you",
+                                "Is anyone there ?",
+                                "Hey",
+                                "Hola",
+                                "Hello",
+                                "Good day"
+                        ],
+                        "responses": [
+                                "Hello, How can i help you ",
+                                "Hello, you need some help ",
+                                "Hi there, how can I help "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Studying",
+                        "patterns": [
+                                "where i can study in quite place",
+                                "I want to use the computer"
+                        ],
+                        "responses": [
+                                "You can go to the library",
+                                "In the library it is located in last floor of the main building",
+                                "In library it is located in last floor of the N building"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Injured",
+                        "patterns": [
+                                "I am injured where i can go",
+                                "I am having a headache",
+                                "I feel that i am not stable"
+                        ],
+                        "responses": [
+                                "You have to go to the clinc",
+                                "Go to the clinc at the main building first floor",
+                                "Tell the doctor or nurse found at the clinc "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "Bye",
+                                "See you later",
+                                "Goodbye",
+                                "Nice chatting to you, bye",
+                                "Till next time"
+                        ],
+                        "responses": [
+                                "See you!",
+                                "Have a nice day",
+                                "Bye! Come back again soon."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "thanks",
+                        "patterns": [
+                                "Thanks",
+                                "Thank you",
+                                "That's helpful",
+                                "Awesome, thanks",
+                                "Thanks for helping me"
+                        ],
+                        "responses": [
+                                "Happy to help!",
+                                "Any time!",
+                                "My pleasure"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "noanswer",
+                        "patterns": [],
+                        "responses": [
+                                "Sorry, can't understand you",
+                                "Please give me more info",
+                                "Not sure I understand"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Apply",
+                        "patterns": [
+                                "How can i apply at MIU?",
+                                "How to apply?",
+                                "How to apply at the univeristy?",
+                                "I want to know the applying steps?"
+                        ],
+                        "responses": [
+                                "Through online application using our official website http://www.miuegypt.edu.eg/",
+                                "online application through MIU official website http://www.miuegypt.edu.eg/",
+                                "Visit MIU official website http://www.miuegypt.edu.eg/ and press \n Apply to start your online application process."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Website",
+                        "patterns": [
+                                "Where is the application on the website?",
+                                "Can i apply online? ",
+                                "هل استطيع التقديم على النت"
+                        ],
+                        "responses": [
+                                "you visit our MIU website \n http://www.miuegypt.edu.eg/",
+                                "Visit MIU website to apply online (http://www.miuegypt.edu.eg/)"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Application Fees",
+                        "patterns": [
+                                "What are the required fees for the application?\n",
+                                "What is application fees?",
+                                "Fees required for application and exam?"
+                        ],
+                        "responses": [
+                                "A nonrefundable amount of 1350 Egyptian pounds",
+                                "1350 Egyptian pounds",
+                                "1350 Egyptian pounds \n has to be paid by a MasterCard / Visa credit card to book a placement exam"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "Paying",
+                        "patterns": [
+                                "how to pay?",
+                                "can i pay by MasterCard / Visa credit card ? "
+                        ],
+                        "responses": [
+                                "You can pay by MasterCard / Visa credit card",
+                                "for sure you can pay using your cards (MasterCard / Visa credit card)"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "acceptance",
+                        "patterns": [
+                                "How can i know the acceptance",
+                                "I need to attend at univeristy to know if i am accepted",
+                                "when i get the acceptance"
+                        ],
+                        "responses": [
+                                "Check your email that you apply using it",
+                                "Refresh your email",
+                                "You need to wait for some days to get it"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "early admission",
+                        "patterns": [
+                                "Is the early addmisioon means that i will be accepted",
+                                "Is the early admission guarantee form me a place in miu",
+                                "There is a benfeit for early admission"
+                        ],
+                        "responses": [
+                                "Doesn't guarantee a place in miu \n but it ease the admission procedure",
+                                "Acceptance is also based on the passing the 'MIU' placement exam ",
+                                "This depend on egyptian ministry of Higher educatian and on your high school score"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "exam",
+                        "patterns": [
+                                "Can I reschedule the MIU Placement Exam?",
+                                "Can I change the time of my Exam?",
+                                "Can I change the day of my Exam?",
+                                "I can not make it to my exam, can I reschedule it?"
+                        ],
+                        "responses": [
+                                "Yes, you can change the exam date using your username and password of your MIU account, \n which has been sent to you in the confirmation email",
+                                "Yes you can"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "confirmation email",
+                        "patterns": [
+                                "I didn't receive any conformation mail from me!",
+                                "I haven't receive yet any mail confirming my online application",
+                                "I did the online application, but I didn't receive any confirmation mail yet!",
+                                "Where is my confirmation e-mail?"
+                        ],
+                        "responses": [
+                                "Please check your spam/bin!",
+                                "If you are sure that your email is correct that was written in the application form, \n we can resend the confirmation email in response to an email request to admdocuments@miuegypt.edu.eg",
+                                "If you are sure that your email is correct that was written in the application form, \n please call us at 19648"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "registered email",
+                        "patterns": [
+                                "Can I change my registered email?",
+                                "How can I change my registered email?",
+                                "How to change my mail",
+                                "Can I change my email?"
+                        ],
+                        "responses": [
+                                "Yes, you can change it simply, just send us a request through the Admission Office active email 'admdocuments@miuegypt.edu.eg'",
+                                "Just simply send us a request through the Admission Office active email 'admdocuments@miuegypt.edu.eg "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                }
+        ]
+}
