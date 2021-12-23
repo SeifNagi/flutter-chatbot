@@ -1,6 +1,6 @@
 from flask import flask,jsonify,request
 import time
-app=Flask(__name__)
+app=flask(__name__)
 @app.route("/bot",method=["POST"])
 
 def response():
